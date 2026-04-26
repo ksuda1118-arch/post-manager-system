@@ -105,3 +105,42 @@
 **Context**: User 承認待ち
 
 ---
+
+## INCEPTION - Application Design（開始）
+**Timestamp**: 2026-04-26T02:00:00Z
+**User Input**: "ではAI-DLCの開発を再開しましょう"
+**AI Response**: Application Design ステージを開始。設計質問（Q1〜Q7）を提示。
+**Context**: Application Design — 設計計画の提示
+
+---
+
+## INCEPTION - Application Design（回答受領）
+**Timestamp**: 2026-04-26T02:05:00Z
+**User Input**: "アーキテクチャはDDDベースにしたいです。他はOK"
+**AI Response**: Q1 を DDD に変更。Q2〜Q7 は推奨値で確定。設計成果物を生成。
+**Context**: Application Design — 設計成果物の生成
+
+### 確定した設計決定:
+- Q1: DDD（Domain-Driven Design）4層アーキテクチャ（ユーザー指定）
+- Q2: SPA（Single Page Application）
+- Q3: 通知はバックエンド内組み込み・同期処理
+- Q4: JWT トークンベース認証
+- Q5: モノレポ（frontend / backend ディレクトリ分割）
+- Q6: RESTful API
+- Q7: オンデマンド集計
+
+### 生成成果物:
+- docs/aidlc/inception/application-design/components.md
+- docs/aidlc/inception/application-design/component-methods.md
+- docs/aidlc/inception/application-design/services.md
+- docs/aidlc/inception/application-design/component-dependency.md
+- docs/aidlc/inception/application-design/application-design.md
+
+---
+
+## INCEPTION - Application Design（承認プロンプト）
+**Timestamp**: 2026-04-26T02:20:00Z
+**AI Prompt**: "Application Design が完了しました。設計成果物を確認し、承認またはご変更をお知らせください。"
+**Context**: User 承認待ち
+
+---

@@ -4,7 +4,7 @@
 - **Project Name**: post-manager-system
 - **Project Type**: Greenfield
 - **Start Date**: 2026-04-25T00:00:00Z
-- **Current Stage**: INCEPTION — Workflow Planning Complete
+- **Current Stage**: INCEPTION — Application Design Complete
 
 ## Workspace State
 - **Existing Code**: No
@@ -35,8 +35,8 @@
 - [x] Requirements Analysis — Completed 2026-04-26
 - [x] User Stories — Completed 2026-04-26（US-01〜US-20 / 3ペルソナ）
 - [x] Workflow Planning — Completed 2026-04-26
-- [ ] Application Design — EXECUTE（次のステージ）
-- [ ] Units Generation — EXECUTE
+- [x] Application Design — Completed 2026-04-26（DDD 4層 / 5成果物生成）
+- [ ] Units Generation — EXECUTE（次のステージ）
 
 ### 🟢 CONSTRUCTION PHASE
 - [ ] Functional Design — EXECUTE
@@ -51,6 +51,6 @@
 
 ## Current Status
 - **Lifecycle Phase**: INCEPTION
-- **Current Stage**: Workflow Planning — Complete
-- **Next Stage**: Application Design
-- **Status**: User 承認待ち → 承認後 Application Design へ進む
+- **Current Stage**: Application Design — Complete
+- **Next Stage**: Units Generation
+- **Status**: User 承認待ち → 承認後 Units Generation へ進む
