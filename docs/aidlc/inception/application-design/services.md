@@ -133,9 +133,9 @@ flowchart LR
     COMP["CompositeNotificationAdapter\n両方に同時送信"]
 
     UC --> PORT
-    PORT <|.. SLACK
-    PORT <|.. TEAMS
-    PORT <|.. COMP
+    SLACK -.->|implements| PORT
+    TEAMS -.->|implements| PORT
+    COMP -.->|implements| PORT
     COMP --> SLACK
     COMP --> TEAMS
 ```
